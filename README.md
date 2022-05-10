@@ -95,7 +95,7 @@ cometimos los siguientes errores durante el armado del circuito y en el código,
 
 conectamos mal un cable que debia ir en el puerto GND se conecto donde correspondia
 
-en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se arreglo cambiando la variable int paddle a 140
+en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se arreglo cambiando la variable (int paddle_x = 140)
 
 este projecto lo vemos como base para lograr:
 
