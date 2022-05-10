@@ -2,7 +2,7 @@
 // por xpsaldivia, bifurcaria, kazelita
 // v1.1.1 mayo 2022
 // hecho con Arduino Uno y IDE 1.8.16
-// basado en montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-08 y nakul13/PONG
+// basado en basado en ej_00_processing_recibe_numeros por montoyamoraga y PONG por nakul13
 
 //declarar variables para paddle
 int paddle_x = 140;
