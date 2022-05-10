@@ -62,7 +62,6 @@ los materiales son:
 * protoboard
 * cables
 * potenciómetro
-* etc
 
 ## armado de circuito
 
@@ -92,16 +91,17 @@ luego en loop() leemos las entradas y usamos la salida Z para lograr prender una
 
 en este proyecto tuvimos los siguientes aprendizajes: 
 
-configuramos el potenciometro para un videojuego simple
+*configuramos el potenciometro para un videojuego simple*
 
+*utilizamos un potenciometro para mando para este*
 
+se encotraron los siguientes problemas
 
 por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale de esta a medida que se mueve por mas tiempo
 
 lo más difícil de este proyecto fue mapear los valores para que la perilla fuese de derecha a izquierda o viceversa
 
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
-
+cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos 
 este proyecto lo vemos como la base para 
 
 a futuro agregar un contador que contara las veces seguidas en las que el rectangulo golpea la pelota.
