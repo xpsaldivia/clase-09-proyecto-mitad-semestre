@@ -93,7 +93,7 @@ en este proyecto tuvimos los siguientes aprendizajes:
 
 *configuramos el potenciometro para un videojuego simple*
 
-*utilizamos un potenciometro para mando para este*
+*utilizamos un potenciometro como mando para este*
 
 se encotraron los siguientes problemas
 
@@ -103,6 +103,10 @@ lo más difícil de este proyecto fue mapear los valores para que la perilla fue
 
 cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos 
 este proyecto lo vemos como la base para 
+
+conectamos mal un cable  que debia ir en el puerto GND se soluciono conectandolo donde correspondia
+
+en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se soluciono agrendo y cambiando la variable int paddle a 140
 
 a futuro agregar un contador que contara las veces seguidas en las que el rectangulo golpea la pelota.
 
