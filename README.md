@@ -92,14 +92,17 @@ luego en loop() leemos las entradas y usamos la salida Z para lograr prender una
 
 en este proyecto tuvimos los siguientes aprendizajes: 
 
-*configuramos el potenciometro para un videojuego simple*
+configuramos el potenciometro para un videojuego simple
 
-*a futuro se le podria agregar un contador que contara las veces seguidas en las que el rectangulo golpea la pelota
 
-*por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale de esta a medida que se mueve por mas tiempo
 
-lo más difícil de este proyecto fue bla.
+por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale de esta a medida que se mueve por mas tiempo
+
+lo más difícil de este proyecto fue mapear los valores para que la perilla fuese de derecha a izquierda o viceversa
 
 cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
 
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
+este proyecto lo vemos como la base para 
+
+a futuro agregar un contador que contara las veces seguidas en las que el rectangulo golpea la pelota.
+
