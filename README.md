@@ -100,6 +100,6 @@ en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla 
 este projecto lo vemos como base para lograr:
 
 *implementar un contador de veces consecutivas que el rectangulo golpea el circulo*
-*
+
 
 
