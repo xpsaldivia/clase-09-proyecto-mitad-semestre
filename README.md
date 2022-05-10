@@ -11,41 +11,11 @@ the following code shows the implementation of a basic pong game in processing v
 * archivo [README.md](README.md)]: documentación.
 * archivo [README.pdf](README.pdf): este archivo pero convertido a PDF.
 
-## ejemplos útiles
-
-cada párrafo es una línea continua de texto. los puntos "." son para punto seguido.
-esta línea está escrita en la siguiente línea en el archivo, pero se ve seguida a la anterior.
-
-para hacer un nuevo párrafo, hay que dejar una línea en blanco entremedio.
-
-* las
-* listas
-* son
-* así
-  * las sub-listas
-  * son así
-  * con dos espacios de indentación
-
-los enlaces se hacen con corchetes y después paréntesis. el texto dentro de corchetes es lo que se ve en el enlace, y el texto dentro de paréntesis es dónde va ese enlace. les pido que sea el mismo texto. aquí ejemplos de enlaces a web y a otros archivos dentro de este repositorio.
-
-* [https://www.wikipedia.org/](https://www.wikipedia.org/)
-* [https://www.arduino.cc/](https://www.arduino.cc/)
-* [imagenes/00-ejemplo.jpg](imagenes/00-ejemplo.jpg)
-* [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino)
-
-para incluir imágenes que sean visibles en este documento, es igual que un enlace a una imagen, pero con un signo de exclamación antes de los corchetes "!", así:
-
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
-
-## borrador de muestra
-
-a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
-
 ## acerca de
 
 este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
 
-los integrantes son [bifurcaria](https://github.com/bifurcaria), [xpsaldivia](https://github.com/xpsaldivia), [Kazelita](https://github.com/Kazelita)
+las integrantes son [bifurcaria](https://github.com/bifurcaria), [xpsaldivia](https://github.com/xpsaldivia) y [Kazelita](https://github.com/Kazelita)
 
 ## lista de materiales
 
@@ -61,13 +31,9 @@ los materiales son:
 
 estos son los pasos para armar el circuito.
 
-conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos entradas, conectar un cable para su lectura análoga.
+![conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos entradas, conectar un cable para su lectura análoga.](https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170338.jpg)
 
-![https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170338.jpg](imagenes/00-ejemplo.jpg)
-
-así debiese verse el circuito completo conectado al arduino.
-
-![texto descripción de la foto](https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg)
+![así debiese verse el circuito completo conectado al arduino.](https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg)
 
 ## código para microcontrolador arduino
 
