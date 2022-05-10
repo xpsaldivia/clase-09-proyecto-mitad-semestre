@@ -92,8 +92,9 @@ luego en loop() leemos las entradas y usamos la salida Z para lograr prender una
 
 en este proyecto tuvimos los siguientes aprendizajes: 
 
-* botón pulsador
-* circuito para 
+*configuramos el potenciometro para un videojuego simple
+*a futuro se le podria agregar un contador que contara las veces seguidas en las que el rectangulo golpea la pelota
+*por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale de esta a medida que se mueve por mas tiempo
 
 lo más difícil de este proyecto fue bla.
 
