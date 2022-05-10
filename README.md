@@ -5,13 +5,16 @@
 * hacer login en GitHub.com
 * entrar a este repositorio disponible en [https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre](https://github.com/aud5i022-2022-1/clase-09-proyecto-mitad-semestre)
 * hacer click en el botón "Fork" de este repositorio para copiarlo a tu cuenta personal.
-
+* enviar el enlace de tu repositorio y la lista de integrantes a través de u-cursos al instructor.
+* ahora puedes editar este archivo siguiendo este enlace [README.md](README.md) y haciendo click en el ícono de lápiz para editar.
+* recomendación: grabar tus avances seguido, para que no pierdas tu avance, para esto, baja al final de la sección de edición, elige la opción " Commit directly to the main branch." luego haz click en el botón verde "Commit changes". repite esto cada vez que quieras grabar cambios.
+* para subir imágenes, haz click en este enlace a la carpeta [imagenes/](imagenes/), luego haz click en el botón "Add files" y selecciona "Upload files". arrastra tus imágenes o añadelas con el enlace "choose your files". luego elige la opción "Commit directly to the main branch" y haz click en el botón verde "Commit changes"
 
 ## contenidos de este repositorio
 
-* carpeta : carpeta para tener el codigo de tu proyecto
-  * archivo : debe incluir encabezado y comentarios describiendo lo que estás haciendo
-* carpeta [imagenes/](imagenes/):
+* carpeta [codigo_arduino/](codigo_arduino/): carpeta para tener el codigo de tu proyecto
+  * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : debe incluir encabezado y comentarios describiendo tu proyecto
+* carpeta [imagenes/](imagenes/): sube aquí las imágenes para tu proyecto.
   * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
 * archivo [README.md](README.md)]: este mismo archivo, aquí escribe tus apuntes durante el proyecto.
 * archivo [README.pdf](README.pdf): este archivo pero convertido a PDF, puedes borrarlo.
@@ -42,9 +45,9 @@ para incluir imágenes que sean visibles en este documento, es igual que un enla
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
-## borrador
+## borrador de muestra
 
-les recomiendo usar estas secciones a continuación:
+a continuación les dejo un breve borrador con ejemplos, que si completan, tendrán todos los puntos de la pauta, suerte!
 
 ## acerca de
 
@@ -52,7 +55,7 @@ este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, 
 
 los integrantes son X, Y, Z.
 
-## materiales
+## lista de materiales
 
 los materiales son:
 
@@ -74,7 +77,7 @@ después hacemos Y y se ve así.
 
 ![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
-## código
+## código para microcontrolador Arduino
 
 el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
@@ -86,16 +89,15 @@ primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z
 
 luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
 
-## aprendizajes y aplicaciones
+## conclusiones
 
-en este proyecto aprendimos los siguientes 
+en este proyecto tuvimos los siguientes aprendizajes: 
 
-## dificultades y 
+* botón pulsador
+* circuito para 
 
-lo que más nos costó fue bla.
+lo más difícil de este proyecto fue bla.
 
-hicimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
+cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos así y este error no lo supimos resolver.
 
-## motivaciones y futuro
-
-este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces.
+este proyecto lo vemos como la base para lograr bla, nos hace pensar en bla, y nos gustaría expandirlo para 10 botones y mil luces y diez arduinos conectados por wifi.
