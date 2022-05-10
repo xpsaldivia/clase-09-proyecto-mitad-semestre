@@ -40,10 +40,7 @@ los enlaces se hacen con corchetes y después paréntesis. el texto dentro de co
 
 para incluir imágenes, usen el ejemplo a continuación
 
-![bla1](imagenes/00-ejemplo.jpg "bla2")
+![texto foto](imagenes/00-ejemplo.jpg)
 
-[bla1](imagenes/00-ejemplo.jpg "bla2")
+![texto foto](imagenes/00-ejemplo.jpgblabla)
 
-![bla1](imagenes/00-ejemplo.jpg)
-
-[bla1](imagenes/00-ejemplo.jpg)
