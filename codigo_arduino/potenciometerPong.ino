@@ -2,7 +2,7 @@
 // por xpsaldivia, bifurcaria, kazelita
 // v1.1.1 mayo 2022
 // hecho con Arduino Uno y IDE 1.8.16
-// basado en arduino_envia_pulsador_potenciometro por montoyamoraga
+// basado en ej_01_arduino_envia_pulsador_potenciometro por montoyamoraga
 
 // variable para pin potenciometro
 const int pinPotenciometro = A0;
