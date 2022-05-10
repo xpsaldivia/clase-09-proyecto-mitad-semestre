@@ -30,11 +30,14 @@ los materiales son:
 ## armado de circuito
 
 estos son los pasos para armar el circuito.
+
 conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos entradas, conectar un cable para su lectura análoga.
-![conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos entradas, conectar un cable para su lectura análoga.] <img src="https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170338.jpg" width="400"/>
+
+<img src="https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170338.jpg" width="400"/>
 
 así debiese verse el circuito completo conectado al arduino.
-![así debiese verse el circuito completo conectado al arduino.] <img src="https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg" width="400"/>
+
+<img src="https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg" width="400"/>
 
 ## código para microcontrolador arduino y processing
 
