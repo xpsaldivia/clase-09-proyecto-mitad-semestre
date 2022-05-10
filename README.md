@@ -1,13 +1,15 @@
-# clase-09-proyecto-mitad-semestre
+# single player pong game in processing
+
+the following code shows the implementation of a basic pong game in processing v4.0b2. written for arduino uno and controlled with a potentiometer. the files in this repo are licensed under mit license.
 
 ## contenidos de este repositorio
 
-* carpeta [codigo_arduino/](codigo_arduino/): carpeta para tener el codigo de tu proyecto
-  * archivo [odigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino) : debe incluir encabezado y comentarios describiendo tu proyecto
-* carpeta [imagenes/](imagenes/): sube aquí las imágenes para tu proyecto.
-  * archivo [/imagenes/00-ejemplo.jpg](/imagenes/00-ejemplo.jpg) como ejemplo.
-* archivo [README.md](README.md)]: este mismo archivo, aquí escribe tus apuntes durante el proyecto.
-* archivo [README.pdf](README.pdf): este archivo pero convertido a PDF, puedes borrarlo.
+* carpeta [codigo_arduino/](codigo_arduino/): contiene dos archivos, uno de arduino que envía los datos y otro de processing que los recibe.
+  * archivo [potenciometerPong.ino](codigo_arduino/potenciometerPong.ino) : envía datos potenciómetro.
+  * archivo [potenciometerPong.pde](codigo_arduino/potenciometerPong.pde) : recibe entrada de datos potenciómetro y convierte este input en la posición del paddle.
+* carpeta [imagenes/](imagenes/): contiene las imágenes de cómo armar el circuito.
+* archivo [README.md](README.md)]: documentación.
+* archivo [README.pdf](README.pdf): este archivo pero convertido a PDF.
 
 ## ejemplos útiles
 
@@ -43,63 +45,60 @@ a continuación les dejo un breve borrador con ejemplos, que si completan, tendr
 
 este proyecto de mitad de semestre fue hecho en el día martes 10 de mayo 2022, como parte del curso  aud5i022-2022-1.
 
-los integrantes son [bifurcaria](https://github.com/bifurcaria), [xpsaldivia](https://github.com/xpsaldivia),[Kazelita](https://github.com/Kazelita)
+los integrantes son [bifurcaria](https://github.com/bifurcaria), [xpsaldivia](https://github.com/xpsaldivia), [Kazelita](https://github.com/Kazelita)
+
 ## lista de materiales
 
 los materiales son:
 
-* Arduino Uno
-* protoboard
-* cables
+* arduino uno
+* protoboard 400 puntos
 * potenciómetro
+* cables dupont
+* cable usb
 
 ## armado de circuito
 
 estos son los pasos para armar el circuito.
 
-primero hacemos X y se ve así.
+conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos entradas, conectar un cable para su lectura análoga.
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+![https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170338.jpg](imagenes/00-ejemplo.jpg)
 
-después hacemos Y y se ve así.
+así debiese verse el circuito completo conectado al arduino.
 
-![texto descripción de la foto](imagenes/00-ejemplo.jpg)
+![texto descripción de la foto](https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg)
 
-## código para microcontrolador Arduino
+## código para microcontrolador arduino
 
-el código está hecho para Arduino Uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
+el código está hecho para arduino uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
-este código está basado en los ejemplos de Arduino blabla y en los ejemplos de esta clase en los enlaces [bla](blabla) y [bla](blabla).
+este código está basado en [los ejemplos de la clase 08](https://github.com/montoyamoraga/aud5i022-2022-1/tree/main/clases/clase-08) por [montoyamoraga](https://github.com/montoyamoraga) y [PONG](https://github.com/nakul13/PONG) por [nakul13](https://github.com/nakul13/).
 
-primero creamos las variables blabla para almacenar valores para blabla. la variabla bla es análoga en el rango blabla y la variable blabla es digital y tiene valores posibles 0 y 1.
+primero creamos variables de posición y ancho para los componentes del juego. también declaramos las variables paddleAhora y paddleAntes, que almacenarán la entrada análoga de datos del potenciómetro.
 
-primero en setup() hacemos que los pines X e Y sean entradas digitales, el pin Z sea salida digital, y abrimos la comunicación serial.
+en setup() creamos un lienzo y abrimos la comunicación serial.
 
-luego en loop() leemos las entradas y usamos la salida Z para lograr prender una luz LED.
+luego en loop() definimos el movimiento de ball y paddle, y hacemos que la posición del paddle dependa de la entrada de los datos provenientes del potenciómetro.
 
 ## conclusiones
 
-en este proyecto tuvimos los siguientes aprendizajes: 
+en este proyecto tuvimos los siguientes aprendizajes:
 
-*configuramos el potenciometro para un videojuego simple*
+* hicimos un videojuego simple en processing.
+* configuramos un potenciómetro como mando para éste.
 
-*utilizamos un potenciometro como mando para este*
+encontramos los siguientes problemas:
 
-se encotraron los siguientes problemas
+* el paddle se salía de la pantalla, pues al definir su posición no estaba considerado su tamaño.
+* lo más difícil de este proyecto fue mapear los valores para el movimiento del paddle en el eje x.
 
-por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale de esta a medida que se mueve por mas tiempo
+cometimos los siguientes errores durante el armado del circuito y en el código:
 
-lo más difícil de este proyecto fue mapear los valores para que la perilla fuese de derecha a izquierda o viceversa
+* la posición del paddle no estaba definida, pues dependía de que el valor que arrojaba el potenciómetro fuese diferente del anterior.
 
-cometimos los siguientes errores durante el armado del circuito y en el código,y los solucionamos
+este proyecto lo vemos como base para lograr:
 
-conectamos mal un cable que debia ir en el puerto GND se conecto donde correspondia
-
-en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se arreglo cambiando la variable (int paddle_x = 140)
-
-este projecto lo vemos como base para lograr:
-
-*implementar un contador de veces consecutivas que el rectangulo golpea el circulo*
-
-
+* implementar un contador de veces consecutivas que el paddle golpea el circulo y asignarle un score.
+* hacer funcionar el código de "game over" y agregar un botón de reiniciar.
 
