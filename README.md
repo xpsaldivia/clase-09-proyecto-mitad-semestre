@@ -36,7 +36,7 @@ conectar el potenciómetro de una sola vuelta a 5V y tierra. entre estas dos ent
 así debiese verse el circuito completo conectado al arduino.
 ![así debiese verse el circuito completo conectado al arduino.](https://raw.githubusercontent.com/xpsaldivia/clase-09-proyecto-mitad-semestre/main/imagenes/IMG_20220510_170812.jpg)
 
-## código para microcontrolador arduino
+## código para microcontrolador arduino y processing
 
 el código está hecho para arduino uno, y está incluido en este repositorio aquí: [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino).
 
