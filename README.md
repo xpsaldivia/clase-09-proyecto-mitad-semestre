@@ -101,16 +101,15 @@ por el tamaño de la pantalla a veces se crea el efecto que el cuadrado se sale 
 
 lo más difícil de este proyecto fue mapear los valores para que la perilla fuese de derecha a izquierda o viceversa
 
-cometimos los siguientes errores durante el armado del circuito y en el código, y los solucionamos 
-este proyecto lo vemos como la base para 
+cometimos los siguientes errores durante el armado del circuito y en el código,y los solucionamos
 
-conectamos mal un cable que debia ir en el puerto GND se soluciono conectandolo donde correspondia
+conectamos mal un cable que debia ir en el puerto GND se conecto donde correspondia
 
-en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se soluciono cambiando la variable int paddle a 140
+en un principio el rectangulo en la posicion 0 no se visualizaba en la pantalla se arreglo cambiando la variable int paddle a 140
 
-este projecto lo vemos como base para lograr
+este projecto lo vemos como base para lograr:
 
 *implementar un contador de veces consecutivas que el rectangulo golpea el circulo*
-
+*
 
 
