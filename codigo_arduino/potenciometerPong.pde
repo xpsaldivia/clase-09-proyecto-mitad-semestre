@@ -1,7 +1,7 @@
 // potenciometerPong
 // por xpsaldivia, bifurcaria, kazelita
 // v1.1.1 mayo 2022
-// hecho con Processing 4.0b2
+// hecho con Processing v4.0b2
 // basado en basado en ej_00_processing_recibe_numeros por montoyamoraga y PONG por nakul13
 
 //declarar variables para paddle
