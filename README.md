@@ -8,7 +8,7 @@ the following code shows the implementation of a basic pong game in processing v
   * archivo [potenciometerPong.ino](codigo_arduino/potenciometerPong.ino) : envía datos potenciómetro.
   * archivo [potenciometerPong.pde](codigo_arduino/potenciometerPong.pde) : recibe entrada de datos potenciómetro y convierte este input en la posición del paddle.
 * carpeta [imagenes/](imagenes/): contiene las imágenes de cómo armar el circuito.
-* archivo [README.md](README.md)]: documentación.
+* archivo [README.md](README.md): documentación.
 * archivo [README.pdf](README.pdf): este archivo pero convertido a PDF.
 
 ## acerca de
