@@ -38,9 +38,7 @@ los enlaces se hacen con corchetes y después paréntesis. el texto dentro de co
 * [imagenes/00-ejemplo.jpg](imagenes/00-ejemplo.jpg)
 * [codigo_arduino/codigo_arduino.ino](codigo_arduino/codigo_arduino.ino)
 
-para incluir imágenes, usen el ejemplo a continuación
+para incluir imágenes que sean visibles en este documento, es igual que un enlace a una imagen, pero con un signo de exclamación antes de los corchetes "!", así:
 
-![texto foto](imagenes/00-ejemplo.jpg)
-
-![texto foto](imagenes/00-ejemplo.jpgblabla)
+![texto descripción de la foto](imagenes/00-ejemplo.jpg)
 
